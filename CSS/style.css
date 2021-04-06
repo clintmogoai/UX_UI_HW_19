@@ -372,7 +372,7 @@ li :hover{
 
 #seeMore{
     background-color: #F59836;
-    color: white;
+    color: white !important;
     height: 50px;
     width: 110px;
     border-style: groove;
@@ -386,6 +386,9 @@ li :hover{
     grid-area: seeMore;
     position: relative;
     cursor: pointer;
+}
+#seeMore a{
+    color: white;
 }    
 /* jquery */
 #seeMore a{
@@ -416,29 +419,29 @@ li :hover{
 
 /* jquery */
 #seeMore a{
-    background: lighten(#F59836, 3%);  
-    border: 1px solid darken(#F59836, 4%);
-    box-shadow: 0px 2px 0 darken(#F59836
-    , 5%), 2px 4px 6px darken($red, 2%);
-    font-weight: 900;
-    letter-spacing: 1px;
-    transition: all 150ms linear;
+        background: lighten(#F59836, 3%);  
+        border: 1px solid darken(#F59836, 4%);
+        box-shadow: 0px 2px 0 darken(#F59836
+        , 5%), 2px 4px 6px darken($red, 2%);
+        font-weight: 900;
+        letter-spacing: 1px;
+        transition: all 150ms linear;
 }
 #resume :hover{
-background-color: #F59836;
-letter-spacing: 1px;
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0s ease 0s;
-transform: scale(2);
+    background-color: #F59836;
+    letter-spacing: 1px;
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0s ease 0s;
+    transform: scale(2);
 }
 .topNav :hover{
-color: #F59836;
-opacity: 80%;
+    color: #F59836;
+    opacity: 80%;
 }
 #conDeets :hover{
-background-color: rgba(183, 176, 232, .30) ;
-text-size-adjust: 10px;
-
+    background-color: rgba(183, 176, 232, .30) ;
+    text-size-adjust: 10px;
+    
 }
 
 
