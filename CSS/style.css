@@ -51,12 +51,9 @@ p{
     align-items: center;
     position: relative;
     background-color: #A0ACF2 ;
+    height: 70px;
 }
 .logo{
-    text-align: center;
-    position: relative;
-    padding: 3;
-    margin-left: 2%;
 }
 #primaryNav{
     width: auto;
