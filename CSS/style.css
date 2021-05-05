@@ -37,6 +37,7 @@ p{
     font-size: 20px;
     font-weight: 300px;
     font-family: 'Poppins', sans-serif;
+    text-align: left;
 }
 
 /* HOMEPAGE-HEADER*/
@@ -198,6 +199,10 @@ li :hover{
 .copyRight p{
     font-size: 12px;
 }
+/* Social Icons */
+.linkin {
+    li
+}
 /* HOMEPAGE-BODYCONTENT*/
 .solid{
     border-top: 30px solid #F59836;
@@ -206,7 +211,7 @@ li :hover{
 .flexContainer{
     display: flex;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 /* ABOUT ME SECTION*/
 .aboutMe {
